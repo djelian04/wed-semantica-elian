@@ -1,0 +1,75 @@
+/* regla general para todos el documentos */
+*{  
+    margin: 0em; /*magen */
+    padding: 0em;
+}
+
+
+main{
+    width: 1200px; /* ancho de main */
+    margin: auto; /*magenes automaticos */
+    
+    
+
+
+}
+
+.seccion1{
+   background-color: yellow;
+   height: 500px;
+   width: 20%;
+   float: left;
+}
+
+.estilo_menu{
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.seccion2{
+    background-color: rgb(21, 19, 126);
+    height: 500px;
+    width: 80%;
+    float: left;
+ }
+
+header{
+    height: 100px;
+    width: 1200px;
+    margin-top: 20px;
+    
+   
+    
+}
+
+.logo{
+    
+    width: 20%;
+    background-color: teal;
+    height: 100px;
+    background-image: url(../img/Universidad_Escudo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    float: left;
+    
+    
+   
+}
+
+ .titulo{
+  
+    width: 80%;
+   
+   float: left;
+   line-height: 100px;
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(0, 63, 100); 
+   text-shadow: 4px 4px red;
+}
+
+a:hover {
+    background-color: rgb(115, 255, 0);
+  }
